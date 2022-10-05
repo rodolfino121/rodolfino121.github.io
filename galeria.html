@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+	<title>Rodolfino Works</title>
+	<link rel="stylesheet" href="estilos/style_1.css">
+	<link rel="stylesheet" href="estilos/normalize.css">
+	<link rel="shorcut icon" type="image/x-icon" href="iconos/saku.ico">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+	<style >
+		
+		.galleria{
+		height: 400px;			
+		}
+
+	</style>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+	<script src="galleria-1.6.1/dist/galleria.js"></script>
+	<script src="galleria-1.6.1/dist/plugins/history/galleria.history.js"></script>
+
+</head>
+<header class="Header">
+
+		<nav class="MenuPrincipal">
+				<ul class="MenuPrincipal-lista">
+					<li class="MenuPrincipal-objeto">
+						<a class="MenuPrincipal-liga" href="Rodolfino.html"> REGRESAR</a>
+					</li>
+																			
+				</ul>
+		</nav>
+
+		<figure >
+			<figcaption class="titulo-galeria">GALERIA</figcaption>
+			
+				
+			</figure>
+		
+	</header>
+<body  class="fondo" background= "galeria/fondo.jpg";>
+<center>
+<section  class="u-contenedor ">
+		
+		
+	
+		<div class="content" >
+			<div class="galleria">
+				<img src="imagenes_g/imagen1.jpg", data-big="imagen1.jpg">
+				<img src="imagenes_g/imagen2.jpg", data-big="imagen2.jpg">
+				<img src="imagenes_g/imagen3.jpg", data-big="imagen3.jpg">
+				<img src="imagenes_g/imagen4.jpg", data-big="imagen4.jpg">
+		
+			</div>
+		</div>
+		<video src="video/kon.mp4" width="320" height="240" controls></video>
+	</section>
+</center>
+<script>
+		$(function() {
+        // Load the classic theme
+        Galleria.loadTheme('galleria-1.6.1/dist/themes/classic/galleria.classic.js');
+
+        // Initialize Galleria
+        Galleria.run('.galleria');
+    });
+	</script>
+</body>
+</html>
